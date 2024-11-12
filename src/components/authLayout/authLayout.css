@@ -1,0 +1,116 @@
+.auth-layout {
+  background: linear-gradient(
+    71.17deg,
+    var(--primary-color) 19.35%,
+    #f8d442 90.12%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.auth-layout .auth-content {
+  background-color: white;
+  max-width: 476px;
+  border-radius: 20px;
+  box-shadow: 2px 5px 10px 0px #0000001a;
+  border: 1px solid #e5e5e5;
+  padding: 42px 21px 41px 30px;
+}
+
+.auth-layout .auth-content .head {
+  text-align: center;
+  padding-bottom: 34px;
+}
+
+.auth-layout .auth-content .head .logo {
+  padding-bottom: 42px;
+}
+
+.auth-layout .auth-content .head h2 {
+  font-size: 22px;
+  line-height: 26.82px;
+  font-weight: 600;
+  padding-bottom: 8px;
+  color: #000000;
+}
+
+.auth-layout .auth-content .head p {
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #6c6c6c;
+}
+
+.auth-layout .auth-content form {
+  padding-bottom: 25.5px;
+}
+
+.auth-layout .auth-content form label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #6c6c6c;
+  padding-top: 16px;
+}
+
+.auth-layout .auth-content form .inputs {
+  display: flex;
+  gap: 24.05px;
+}
+.auth-layout .auth-content form input:not([type="file"]):not([type="submit"]) {
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+  padding: 15px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 14.63px;
+  margin-top: 8px;
+}
+
+.auth-layout
+  .auth-content
+  form
+  input:not([type="file"]):not([type="submit"])::placeholder {
+  color: #cdcdcd;
+}
+
+.auth-layout .auth-content form .profile-image-input {
+  display: none;
+}
+
+.auth-layout .profile-image {
+  cursor: pointer;
+  background-image: url("images/common/sendFileSquare.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 102px;
+  height: 102px;
+  margin-top: 17px;
+}
+
+.auth-layout .auth-content form input[type="submit"] {
+  margin-top: 15px;
+  background-color: var(--primary-color);
+  border: 0;
+  border-radius: 4px;
+  padding: 14px 180px;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.auth-layout .auth-content .message {
+  font-size: 14px;
+  line-height: 17.07px;
+  text-align: center;
+  color: #6c6c6c;
+}
+
+.auth-layout .auth-content .message a {
+  font-weight: 500;
+  color: var(--primary-color);
+  text-decoration: underline;
+}

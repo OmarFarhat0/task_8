@@ -1,0 +1,68 @@
+.sidebar {
+  width: 20%;
+  background-color: hsl(32, 40%, 92%);
+  text-align: center;
+  padding: 35px 0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.sidebar .logo {
+  width: 84.89px;
+  height: 23px;
+  border-left: 4px solid #f8d442;
+  padding-left: 12.34px;
+  width: 84.89px;
+  height: 23px;
+  margin: 0 auto 54px auto;
+  display: block;
+}
+
+.sidebar .profile-image {
+  border-radius: 100%;
+  width: 128px;
+  height: 128px;
+  margin-bottom: 20px;
+}
+
+.sidebar h2 {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20.72px;
+  color: #000000;
+  margin-bottom: 91px;
+}
+
+.sidebar a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.sidebar .item {
+  padding: 9px 40px;
+  margin: 0 auto 18px auto;
+  max-width: 193px;
+}
+
+.sidebar .item img {
+  position: relative;
+  right: 10px;
+}
+
+.sidebar .item.active {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+.sidebar .logout button {
+  margin-right: 23px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  border: 0;
+  color: #000000;
+  margin-top: 50px;
+  background: none;
+}

@@ -1,0 +1,128 @@
+.product-list {
+  width: 80%;
+  padding-top: 24px;
+  padding-bottom: 116px;
+  min-height: 100vh;
+}
+
+.product-list .search-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 48px;
+}
+
+.product-list .search-container .search-input {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 664px;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #c4c4c4;
+  padding: 11px 16px;
+}
+
+.product-list .search-container .search-input::placeholder {
+  color: #c4c4c4;
+}
+
+.product-list .search-container .search-image {
+  position: relative;
+  left: -28px;
+}
+
+.product-list .add-product-container {
+  display: flex;
+  justify-content: right;
+  padding-bottom: 32px;
+}
+
+.product-list .add-product-container .add-product-button {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  border: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #ffffff;
+  padding: 13px 24px;
+  margin-right: 58px;
+}
+
+.product-list .items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.product-list .items .item {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+}
+
+.product-list .items .item img {
+  display: block;
+  width: 208px;
+  height: 208px;
+  border-radius: 16px;
+  box-shadow: 8px 8px 4px 0px #00000040;
+}
+
+.product-list .items .item-content {
+  position: relative;
+}
+
+.product-list .items .item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  cursor: pointer;
+  background-color: #f2eae1b2;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-list .items .item:hover .item-overlay {
+  opacity: 1;
+}
+
+.product-list .items .product-name {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36.57px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+
+.product-list .items .buttons-container {
+  display: flex;
+  gap: 8px;
+}
+
+.product-list .items .buttons-container button {
+  border-radius: 4px;
+  width: 81px;
+  height: 34px;
+  border: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #ffffff;
+}
+
+.product-list .items .buttons-container .edit-button {
+  background-color: var(--primary-color);
+}

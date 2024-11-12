@@ -1,0 +1,38 @@
+.custom-offcanvas {
+  bottom: 50%;
+  left: 50% !important;
+  transform: translate(-50%, 50%) !important;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100% !important;
+  max-width: 948px !important;
+
+  height: fit-content !important;
+  text-align: center;
+}
+
+.custom-offcanvas .txt-ask {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26.82px;
+  color: #000000;
+  padding-bottom: 80px;
+}
+
+.custom-offcanvas .button-container {
+  display: flex;
+  gap: 189px;
+  justify-content: center;
+}
+
+.custom-offcanvas .button-container button {
+  background-color: #feaf00;
+  border-radius: 4px;
+  width: 199px;
+  height: 61px;
+  border: 0;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39.01px;
+  color: #ffffff;
+}
